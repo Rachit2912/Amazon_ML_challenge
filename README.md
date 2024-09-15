@@ -22,6 +22,8 @@ Note: Make sure to output a prediction for all indices. If no value is found in 
 7) For maximum_weight_recognitionn and item_weight differentiation, we used appropriate keywords like 'for', 'upto', etc.
 8) The complex part was length, width & height because they have same units, so, we applied our logic via max. and min. values to differentiate.
 9) Then finally, predicted the answer and reversed mapped the units to their appropriate formats and put them in the final test_output.csv file.
+    
+**Full process explained stepwise in seven_nation_army.ipynb**
 
 ### Result : 
 --> As we know, we have a limitation to the computational power and storage, so, we could only apply these processes upto 15k images out of total 2.5 lac images and saved the ocr_text in test_15k.csv
